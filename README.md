@@ -75,7 +75,7 @@ honeypot-session-analyzer/
 
 ## Security and Privacy
 
-The public portfolio version intentionally excludes:
+The public repository intentionally excludes:
 
 - University or lab-specific public addresses
 - Raw attacker/source addresses
@@ -85,10 +85,6 @@ The public portfolio version intentionally excludes:
 - Live endpoints and deployment secrets
 
 Addresses remaining in the public code are loopback, private-network, or RFC 5737 documentation examples. The scripts are retained for technical review and are not a turnkey public deployment.
-
-> Historical revisions of a public Git repository remain accessible unless its history is rewritten. Before republishing the sanitized version, remove the excluded artifacts from Git history or create a fresh public repository from this sanitized tree.
-
----
 
 ## Team and Attribution
 
@@ -100,7 +96,7 @@ This was a collaborative capstone project by **Group 1A — Weather App Warriors
 - Arush Gune
 - Andrew Hill
 
-This repository was forked from the team's shared repository to preserve project provenance. Add a concise description of Jacob's specific responsibilities here once confirmed from the original capstone records.
+This repository remains a fork of the team's shared repository to preserve its collaborative provenance.
 
 ---
 
