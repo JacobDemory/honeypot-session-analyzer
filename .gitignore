@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+.vscode/
+.idea/
+
+# Raw honeypot captures can contain source IPs and attempted credentials.
+log/
+dat/
+var/
+honey/*.zip
+honey/hbooth/
+
+# Allow only deliberately sanitized public samples.
+!dat/
+dat/*
+!dat/sample_sessions.csv
